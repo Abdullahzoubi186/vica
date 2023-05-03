@@ -24,6 +24,7 @@ header {
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
         url(../img/banner.png);
     background-size: cover;
+    background-position: center;
 }
 
 nav {
@@ -57,8 +58,7 @@ nav .items a:hover {
 
 nav .logo img {
     width: 100px;
-    height: 50px;
-
+    /*   height: 50px; // don't putting height this things error*/
 }
 
 
@@ -83,6 +83,7 @@ header .hero p {
     width: 700px;
     text-align: center;
     margin-bottom: 20px;
+
 
 }
 
@@ -150,6 +151,7 @@ header .hero .click a:hover {
     border-radius: 10px;
     padding: 40px;
 
+
 }
 
 #course-offer h1,
@@ -164,9 +166,10 @@ header .hero .click a:hover {
 }
 
 #course-offer p {
-    color: rgba(0, 0, 0, 0.744);
-
+    color: rgb(108 103 103);
+    line-height: 25px;
 }
+
 
 
 #global {
@@ -250,8 +253,9 @@ header .hero .click a:hover {
     gap: 20px;
     width: 40%;
     margin: auto;
-    background-color: white;
+    background-color: #fff3f3;
     padding: 30px;
+    border-radius: 10px;
 }
 
 #view .said .box h2 {
